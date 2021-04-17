@@ -4,10 +4,20 @@ h1, h2, h3, h4, h5, h6, p, div {
   margin: 0;
   padding: 0;
 }
+/*=======================================*/
+@font-face {
+    font-family: 'Open Sans', sans-serif;
+    src: url(OpenSans-Regular.ttf);
+}
+
 
 body {
   font-family:sans-serif;
-}
+  width: 100%;
+  height: 3000px;
+  background-image: url(luxuryblack.jpg);
+  background-size: cover;
+  }
 
 li {
   list-style: none;
@@ -17,9 +27,179 @@ a {
   text-decoration: none;
 }
 
-header {
-    background-color: rgba(61, 61, 161, 0.452);
+/*=======================================
+            THIS IS HEADER
+=======================================*/
+.header {
     width: 100%;
-    padding: 20px;
+    height: 200px;
+    margin-top: 30px;
+}
+
+.header img {
+    width: 500px;
+    margin: 20px 40px;
+    float: left;
+}
+.header-list {
+    color: white;
+    font-size: 50px;
+    line-height: 50px;
+    float: right;
+    margin-right: 100px;
+}
+
+.header li{
+float: left;
+margin-right: 30px;
+padding: 50px 30px;
+background-color: rgba(0, 128, 128, 0.411);
+border-radius: 20px;
+}
+
+.header li:hover {
+    background-color: rgb(0, 128, 128);
+    transition-duration: 1s;
+    cursor: pointer;
+}
+
+/*=======================================
+            THIS IS MAIN
+=======================================*/
+.main img {
+    height: 1200px;
+    border-radius: 40px;
+    margin: 0 300px 200px 300px;
+    float: left;
+}
+
+.text-wrapper {
+    width: 90%;
+    color: white;
+    margin-bottom: 200px;
+}
+
+.text-wrapper h1{
+    margin-top: 150px;
+    font-size: 100px;
+}
+
+.text-wrapper p {
+    font-size: 60px;
+    margin-bottom: 100px;
+}
+
+a {
+    border-radius: 20px;
+}
+
+.btn {
+    font-size: 50px;
+    margin-top: 100px;
+}
+
+.text-wrapper h2 {
+    font-size: 60px;
+    font-weight: normal;
     margin-bottom: 20px;
+}
+
+.instagram {
+    color: white;
+}
+.btn-spotify {
+    padding: 50px;
+    background-color:rgba(0, 128, 128, 0.411);
+    color: white;
+    margin-right: 50px;
+}
+.btn-spotify:hover {
+    background-color: rgb(0, 128, 128);
+    transition-duration: 1s;
+}
+.btn-anchor {
+    padding: 50px;
+    background-color: rgba(0, 128, 128, 0.411);
+    color: white;
+}
+.btn-anchor:hover {
+    background-color: rgb(0, 128, 128);
+    transition-duration: 1s;
+}
+fa {
+    margin-right: 20px;
+}
+
+/*=======================================
+            THIS IS CONTENTS
+=======================================*/
+
+.contents{
+    clear:left;
+    margin: 100px 0;
+    height: 1400px;
+}
+
+.contents-list{
+    margin: 200px auto;
+    text-align: center;
+}
+
+h3{
+    font-size: 70px;
+    margin: 100px auto;
+    text-align: center;
+    color: white;
+}
+
+.flex-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-list li{
+    flex: auto;
+    width: 25%;
+}
+
+.mimpi img,.toxic img,.akusukabercerita img,.skizofrenia img {
+    border-radius: 40px;
+    opacity: 70%;
+}
+
+.mimpi img:hover,.toxic img:hover,.akusukabercerita img:hover,.skizofrenia img:hover {
+    opacity: 100%;
+    cursor: pointer;
+}
+
+figure {
+    height: 150px;
+}
+
+audio {
+    width: 700px;
+    height: 100px;
+    font-size: 40px;
+}
+
+.input{
+    height: 80px;
+}
+
+/*=======================================
+            THIS IS FOOTER
+=======================================*/
+
+.footer{
+    background-color: rgb(184, 184, 184);
+    opacity: 85%;
+}
+
+h4{
+    padding-top: 200px;
+    padding-bottom: 10px;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    font-size: 30px;
 }
